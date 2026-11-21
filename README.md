@@ -2,6 +2,18 @@
 
 Assetto Corsa Rally v0.7 の DLSS Neural Rendering をプレイ中に調整する非公式ツールです。NRのオン・オフ、全体の強度、処理回数、追加パスの強度、スタイル、トーン、細部の強調を変更できます。
 
+## 適用前・適用後
+
+| 適用前 | 適用後 |
+| --- | --- |
+| [![NR設定の適用前](docs/images/before.png)](docs/images/before.png) | [![NR設定の適用後](docs/images/after.png)](docs/images/after.png) |
+
+画像をクリックすると拡大できます。
+
+## アプリのスクリーンショット
+
+![ACR NR GUIの調整画面](docs/images/app.jpg)
+
 ## 導入
 
 1. Windows版Assetto Corsa Rally、NRが動く環境、UE4SS、Python 3.13（Windows用ランチャーとTkinter付き）を用意します。
