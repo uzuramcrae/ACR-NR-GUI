@@ -12,7 +12,7 @@ Click either image to view it at full size.
 
 ## App screenshot
 
-![ACR NR GUI settings window](docs/images/app.jpg)
+![ACR NR GUI settings window](docs/images/app-en.jpg)
 
 ## Installation
 
