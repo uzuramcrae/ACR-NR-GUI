@@ -1,31 +1,32 @@
 # ACR NR GUI
 
-Assetto Corsa Rally v0.7 の DLSS Neural Rendering をプレイ中に調整する非公式ツールです。NRのオン・オフ、全体の強度、処理回数、追加パスの強度、スタイル、トーン、細部の強調を変更できます。
+An unofficial tool for adjusting DLSS Neural Rendering in Assetto Corsa Rally v0.7 while the game is running. Toggle Neural Rendering and adjust the intensity, pass count, extra pass intensity, style, tone, and detail.
 
-## 適用前・適用後
+## Before and after
 
-| 適用前 | 適用後 |
+| Before | After |
 | --- | --- |
-| [![NR設定の適用前](docs/images/before.png)](docs/images/before.png) | [![NR設定の適用後](docs/images/after.png)](docs/images/after.png) |
+| [![Before applying the NR settings](docs/images/before.png)](docs/images/before.png) | [![After applying the NR settings](docs/images/after.png)](docs/images/after.png) |
 
-画像をクリックすると拡大できます。
+Click either image to view it at full size.
 
-## アプリのスクリーンショット
+## App screenshot
 
-![ACR NR GUIの調整画面](docs/images/app.jpg)
+![ACR NR GUI settings window](docs/images/app.jpg)
 
-## 導入
+## Installation
 
-1. Windows版Assetto Corsa Rally、NRが動く環境、UE4SS、Python 3.13（Windows用ランチャーとTkinter付き）を用意します。
-2. ゲームを終了し、`mod/ACRNeuralRendering` をゲームの `acr/Binaries/Win64/ue4ss/Mods` にコピーします。
-3. Steamからゲームを起動し、展開したフォルダーで `ACR-NR-GUI.cmd` を開きます。
+1. Install Assetto Corsa Rally for Windows, UE4SS, and Python 3.13 with the Windows launcher and Tkinter. Check that Neural Rendering works on your system.
+2. Download and extract the ZIP from [Releases](https://github.com/uzuramcrae/ACR-NR-GUI/releases/latest).
+3. Close the game and copy `mod/ACRNeuralRendering` into the game's `acr/Binaries/Win64/ue4ss/Mods` folder.
+4. Start the game through Steam and open `ACR-NR-GUI.cmd` from the extracted folder.
 
-GUI下部にゲームから読み返した値が表示されます。処理回数を増やすとGPU負荷が上がります。トーン・細部・スタイルを空欄にすると、その項目の上書きを停止します。
+The bottom of the window shows the values read back from the game. A higher pass count increases GPU load. Leave Style, Tone strength, or Detail strength blank to stop overriding that setting.
 
-アンインストールするにはゲームを終了し、配置した `ACRNeuralRendering` フォルダーを取り外します。
+To uninstall, close the game and remove the installed `ACRNeuralRendering` folder.
 
-## クレジット
+## Credits and license
 
-このMODを動画や配信で紹介する際は、概要欄などにチャンネルへのリンクを記載していただけると嬉しいです。 [Uzu Rally Lab](https://www.youtube.com/@Uzuramcrae)
+If you feature this mod in a video or stream, a link to [Uzu Rally Lab](https://www.youtube.com/@Uzuramcrae) in the description is appreciated.
 
-コードは [MIT License](LICENSE) で公開しています。
+The code is available under the [MIT License](LICENSE).
