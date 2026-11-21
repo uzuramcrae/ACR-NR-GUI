@@ -16,7 +16,7 @@ Click either image to view it at full size.
 
 ## Installation
 
-1. Install Assetto Corsa Rally for Windows, UE4SS, and Python 3.13 with the Windows launcher and Tkinter. Check that Neural Rendering works on your system.
+1. Install Assetto Corsa Rally for Windows, UE4SS, and Python 3.13 with the Windows launcher and Tkinter. DLSS 5 Neural Rendering officially requires a **GeForce RTX 50 Series GPU**. Check that Neural Rendering works in the game before installing the mod. See the [NVIDIA DLSS 5 FAQ](https://www.nvidia.com/en-us/geforce/forums/geforce-graphics-cards/5/583738/dlss-5-faq/).
 2. Download and extract the ZIP from [Releases](https://github.com/uzuramcrae/ACR-NR-GUI/releases/latest).
 3. Close the game and copy `mod/ACRNeuralRendering` into the game's `acr/Binaries/Win64/ue4ss/Mods` folder.
 4. Start the game through Steam and open `ACR-NR-GUI.cmd` from the extracted folder.
